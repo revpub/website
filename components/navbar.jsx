@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className='fixed w-full h-16 shadow bg-white'>
       <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16'>
-        <div className='hidden sm:flex'>
+        <div className='sm:flex'>
           <ul className='hidden sm:flex'>
             <Link href='/'>
               <li className='ml-10 text-base font-medium text-gray-500 hover:text-gray-900'>Home</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
           </ul>
         </div>
-        <div onClick={handleNav} className='md:hidden cursor-pointer pl-24'>
+        <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>
       <Bars3Icon className="h-6 w-6 text-gray-500 hover:text-gray-900" aria-hidden="true" size='25' />
       </div>
       </div>
