@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev -p 80",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 80"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
